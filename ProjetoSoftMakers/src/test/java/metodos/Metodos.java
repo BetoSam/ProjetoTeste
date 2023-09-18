@@ -42,4 +42,13 @@ public class Metodos extends Drivers {
 		}
 
 	}
+	public void pausa (int tempo ) {
+		try {
+			Thread.sleep(tempo);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
 }

@@ -50,6 +50,7 @@ public class TestandoLoginTeste {
 	@Then("o cadastro devera ser realizado com sucesso")
 	public void oCadastroDeveraSerRealizadoComSucesso() {
 		metodo.clicar(el.getBtnAdicionar());
+		metodo.pausa(2000);
 		metodo.tirarPrint("cadastro realizado com sucesso");
 	}
 
